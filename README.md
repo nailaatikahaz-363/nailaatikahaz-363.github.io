@@ -3,8 +3,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naila Atikah Adya Zahra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
+        /* --- JANGAN LUPA RESET --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* --- BUAT CONTAINER FLEKSIBEL --- */
+.container {
+    max-width: 1100px; /* Batas lebar maksimal di laptop */
+    width: 90%;       /* Saat layar kecil, ambil 90% lebar layar */
+    margin: 0 auto;   /* Tengahkan otomatis */
+    padding: 0 15px;
+}
+
+/* --- BUAT GAMBAR RESPONSIF --- */
+img {
+    max-width: 100%;  /* Gambar tidak akan pernah lebih lebar dari container */
+    height: auto;     /* Tinggi mengikuti proporsi aslinya */
+}
+
+/* --- LAYOUT FLEKSIBEL (Gunakan Flexbox) --- */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Bungkus ke bawah kalau layar sempit */
+    gap: 20px;
+}
+
+/* --- KOLOM OTOMATIS (CSS Grid) --- */
+.grid-konten {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* --- NAVIGASI RESPONSIF --- */
+/* Jika layar maks 768px (HP/Tablet), ubah menu jadi vertikal */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        list-style: none;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+}
         /* --- PALET WARNA PASTEL --- */
         :root {
             /* Biru Pastel */
