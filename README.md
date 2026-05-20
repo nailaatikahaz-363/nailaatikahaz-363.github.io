@@ -622,7 +622,7 @@ img {
             <div class="about-layout">
                 <!-- Foto -->
                 <div class="photo-box">
-                    <img src="C:\Users\lenovo\Downloads\WhatsApp Image 2026-05-20 at 00.38.53.jpeg" alt="Foto Profil">
+                    <img src="https://drive.google.com/file/d/1OoEesEEvTXFXBbYZUpaLZK-vTHT-tiNB/view?usp=drivesdk" alt="Foto Profil">
                     <!-- Ganti Link Atas dengan link foto asli kamu Contoh: <img src="images/foto-saya.jpg"> -->
                 </div>
 
